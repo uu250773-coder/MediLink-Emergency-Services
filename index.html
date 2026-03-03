@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,219 +10,229 @@
     <!-- Page-specific styles -->
     <link rel="stylesheet" href="./global_css/index.css">
 </head>
+
 <body>
 
-<!-- Emergency Alert Bar  -->
-<div class="emergency-bar">
-    🚨 Emergency? Call <strong>999</strong> or use the SOS button below.
-    <a href="./src/pages/booking/booking.html">Request Ambulance Now →</a>
-</div>
-
-<!-- Navigation -->
-<nav>
-    <a href="index.html" class="brand">
-        <div class="brand-icon">🚑</div>
-        Medi<span>Link</span>
-    </a>
-    <ul>
-        <li><a href="./src/pages/search/search.html">Find Ambulance</a></li>
-        <li><a href="./index.html#how">How It Works</a></li>
-        <li><a href="./src/pages/tracking/tracking.html" class="active">Track</a></li>
-        <li><a href="./src/pages/dashboard/dashboard.html">Dashboard</a></li>
-    </ul>
-    <div class="nav-cta">
-        <a href="#" class="btn btn-ghost">Sign In</a>
-        <a href="./src/pages/booking/booking.html" class="btn btn-red">🚑 Request Now</a>
-    </div>
-</nav>
-
-<!-- HERO -->
-<section class="hero" id="home">
-    <div class="hero-content">
-        <div class="hero-badge fade-in">
-            <span class="pulse"></span> Live in Uganda — 120+ Providers
-        </div>
-
-        <h1 class="fade-in">
-            Emergency<br>Care, <em>Seconds</em><br>Away.
-        </h1>
-
-        <p class="fade-in">
-            MediLink connects you instantly to verified ambulance services across Uganda.
-            Real-time tracking, transparent pricing, and your choice of hospital — when every second counts.
-        </p>
-
-        <div class="hero-actions fade-in">
-            <a href="./src/pages/booking/booking.html" class="btn btn-red btn-lg">🚑 Request Ambulance</a>
-            <a href="./src/pages/search/search.html"  class="btn btn-ghost btn-lg">Browse Providers</a>
-        </div>
-
-        <div class="hero-stats fade-in">
-            <div class="stat-item">
-                <div class="stat-num">8<span>min</span></div>
-                <div class="stat-label">Avg. Response Time</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-num">120<span>+</span></div>
-                <div class="stat-label">Verified Providers</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-num">24<span>/7</span></div>
-                <div class="stat-label">Always Available</div>
-            </div>
-        </div>
+    <!-- Emergency Alert Bar  -->
+    <div class="emergency-bar">
+        🚨 Emergency? Call <strong>999</strong> or use the SOS button below.
+        <a href="./src/pages/booking/booking.html">Request Ambulance Now →</a>
     </div>
 
-    <!-- Map Card Visual -->
-    <div class="hero-visual">
-        <div class="map-card">
-            <div class="map-header">
-                <h4>Ambulances Near You</h4>
-                <div class="live-badge">
-                    <span class="pulse" style="background:var(--green);"></span> Live
-                </div>
-            </div>
-
-            <div class="map-area">
-                <div class="map-road h r1"></div>
-                <div class="map-road h r2"></div>
-                <div class="map-road v c1"></div>
-                <div class="map-road v c2"></div>
-                <div class="map-ambulance amb1">🚑</div>
-                <div class="map-ambulance amb2">🚑</div>
-                <div class="map-ambulance amb3">🚑</div>
-                <div class="map-user">
-                    <div class="user-dot"></div>
-                </div>
-                <div class="map-line"></div>
-            </div>
-
-            <div class="ambulance-list">
-                <div class="amb-item active">
-                    <div class="amb-avatar">🚑</div>
-                    <div class="amb-info">
-                        <div class="amb-name">AAR Healthcare</div>
-                        <div class="amb-meta">Advanced Life Support · Kampala</div>
-                    </div>
-                    <div style="text-align:right">
-                        <div class="amb-dist">1.2 km</div>
-                        <div style="font-size:11px;color:var(--text-muted);">~4 min</div>
-                    </div>
-                </div>
-                <div class="amb-item">
-                    <div class="amb-avatar">🏥</div>
-                    <div class="amb-info">
-                        <div class="amb-name">Mulago Rescue</div>
-                        <div class="amb-meta">Basic Life Support · Kawempe</div>
-                    </div>
-                    <div style="text-align:right">
-                        <div class="amb-dist">2.8 km</div>
-                        <div style="font-size:11px;color:var(--text-muted);">~9 min</div>
-                    </div>
-                </div>
-            </div>
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html" class="brand">
+            <div class="brand-icon">🚑</div>
+            Medi<span>Link</span>
+        </a>
+        <ul>
+            <li><a href="./src/pages/search/search.html">Find Ambulance</a></li>
+            <li><a href="./index.html#how">How It Works</a></li>
+            <li><a href="./src/pages/tracking/tracking.html" class="active">Track</a></li>
+            <li><a href="./src/pages/dashboard/dashboard.html">Dashboard</a></li>
+        </ul>
+        <div class="nav-cta">
+            <a href="#" class="btn btn-ghost">Sign In</a>
+            <a href="./src/pages/booking/booking.html" class="btn btn-red">🚑 Request Now</a>
         </div>
-    </div>
-</section>
+    </nav>
 
-<!-- HOW IT WORKS -->
-<section class="how-section page-anchor" id="how">
-    <div class="how-grid">
-        <div>
-            <div class="section-label">Simple Process</div>
-            <h2 class="section-title">Help in 3 Simple Steps</h2>
-            <p class="section-sub">From emergency to care — MediLink removes every barrier between you and the help you need.</p>
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-badge fade-in">
+                <span class="pulse"></span> Live in Uganda — 120+ Providers
+            </div>
 
-            <div class="steps">
-                <div class="step active">
-                    <div class="step-num">01</div>
-                    <div class="step-content">
-                        <h4>Share Your Location</h4>
-                        <p>Enable GPS or type your address. MediLink instantly shows verified ambulances nearby with live availability status.</p>
-                    </div>
+            <h1 class="fade-in">
+                Emergency<br>Care, <em>Seconds</em><br>Away.
+            </h1>
+
+            <p class="fade-in">
+                MediLink connects you instantly to verified ambulance services across Uganda.
+                Real-time tracking, transparent pricing, and your choice of hospital — when every second counts.
+            </p>
+
+            <div class="hero-actions fade-in">
+                <a href="./src/pages/booking/booking.html" class="btn btn-red btn-lg">🚑 Request Ambulance</a>
+                <a href="./src/pages/search/search.html" class="btn btn-ghost btn-lg">Browse Providers</a>
+            </div>
+
+            <div class="hero-stats fade-in">
+                <div class="stat-item">
+                    <div class="stat-num">8<span>min</span></div>
+                    <div class="stat-label">Avg. Response Time</div>
                 </div>
-                <div class="step">
-                    <div class="step-num">02</div>
-                    <div class="step-content">
-                        <h4>Choose Your Provider</h4>
-                        <p>Compare ambulances by distance, equipment level (BLS/ALS/ICU), cost, and ratings. Select your preferred hospital.</p>
-                    </div>
+                <div class="stat-item">
+                    <div class="stat-num">120<span>+</span></div>
+                    <div class="stat-label">Verified Providers</div>
                 </div>
-                <div class="step">
-                    <div class="step-num">03</div>
-                    <div class="step-content">
-                        <h4>Track in Real Time</h4>
-                        <p>Confirm your booking in seconds. Track the ambulance live on the map and receive hospital arrival notifications.</p>
-                    </div>
+                <div class="stat-item">
+                    <div class="stat-num">24<span>/7</span></div>
+                    <div class="stat-label">Always Available</div>
                 </div>
             </div>
         </div>
 
-        <div class="step-visual">
-            <!-- <div> -->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.742504825579!2d32.57804697486039!3d0.3166666666666667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMArCsDE5JzIyLjIiTiAzMsKwMzQnNDEuOSJF!5e0!3m2!1sen!2sug!4v1708989455899!5m2!1sen!2sug" width="400" height="300" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- Map Card Visual -->
+        <div class="hero-visual">
+            <div class="map-card">
+                <div class="map-header">
+                    <h4>Ambulances Near You</h4>
+                    <div class="live-badge">
+                        <span class="pulse" style="background:var(--green);"></span> Live
+                    </div>
+                </div>
 
+                <div class="map-area">
+                    <div class="map-road h r1"></div>
+                    <div class="map-road h r2"></div>
+                    <div class="map-road v c1"></div>
+                    <div class="map-road v c2"></div>
+                    <div class="map-ambulance amb1">🚑</div>
+                    <div class="map-ambulance amb2">🚑</div>
+                    <div class="map-ambulance amb3">🚑</div>
+                    <div class="map-user">
+                        <div class="user-dot"></div>
+                    </div>
+                    <div class="map-line"></div>
+                </div>
+
+                <div class="ambulance-list">
+                    <div class="amb-item active">
+                        <div class="amb-avatar">🚑</div>
+                        <div class="amb-info">
+                            <div class="amb-name">AAR Healthcare</div>
+                            <div class="amb-meta">Advanced Life Support · Kampala</div>
+                        </div>
+                        <div style="text-align:right">
+                            <div class="amb-dist">1.2 km</div>
+                            <div style="font-size:11px;color:var(--text-muted);">~4 min</div>
+                        </div>
+                    </div>
+                    <div class="amb-item">
+                        <div class="amb-avatar">🏥</div>
+                        <div class="amb-info">
+                            <div class="amb-name">Mulago Rescue</div>
+                            <div class="amb-meta">Basic Life Support · Kawempe</div>
+                        </div>
+                        <div style="text-align:right">
+                            <div class="amb-dist">2.8 km</div>
+                            <div style="font-size:11px;color:var(--text-muted);">~9 min</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="how-section page-anchor" id="how">
+        <div class="how-grid">
+            <div>
+                <div class="section-label">Simple Process</div>
+                <h2 class="section-title">Help in 3 Simple Steps</h2>
+                <p class="section-sub">From emergency to care — MediLink removes every barrier between you and the help
+                    you need.</p>
+
+                <div class="steps">
+                    <div class="step active">
+                        <div class="step-num">01</div>
+                        <div class="step-content">
+                            <h4>Share Your Location</h4>
+                            <p>Enable GPS or type your address. MediLink instantly shows verified ambulances nearby with
+                                live availability status.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">02</div>
+                        <div class="step-content">
+                            <h4>Choose Your Provider</h4>
+                            <p>Compare ambulances by distance, equipment level (BLS/ALS/ICU), cost, and ratings. Select
+                                your preferred hospital.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">03</div>
+                        <div class="step-content">
+                            <h4>Track in Real Time</h4>
+                            <p>Confirm your booking in seconds. Track the ambulance live on the map and receive hospital
+                                arrival notifications.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="step-visual">
+                <!-- <div> -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.1!2d32.5914857!3d0.3012047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477f4edb3bc9e7a7%3A0x88167447938be280!2sCavendish%20University%20Uganda!5e0!3m2!1sen!2sug!4v1708989455899!5m2!1sen!2sug"
+                    width="400" height="300" style="border: 0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
                 <!-- <div style="font-size:80px;margin-bottom:24px;">🗺️</div>
                 <h3 style="font-size:22px;margin-bottom:12px;">Live Map View</h3>
                 <p style="color:var(--text-muted);font-size:14px;max-width:280px;margin:0 auto;">
                     See all nearby ambulances plotted in real-time as you go through each step.
                 </p> 
                 </div> -->
-        </div>
-    </div>
-</section>
-
-<!-- FOOTER -->
-<footer>
-    <div class="footer-grid">
-        <div class="footer-brand">
-            <a href="index.html" class="brand">
-                <div class="brand-icon">🚑</div>
-                Medi<span>Link</span>
-            </a>
-            <p>Connecting Uganda to emergency medical transportation through technology. Saving lives, one dispatch at a time.</p>
-            <div class="btn-row">
-                <a href="booking.html" class="btn btn-red" style="font-size:13px;padding:8px 18px;">Get Help Now</a>
             </div>
         </div>
-        <div class="footer-col">
-            <h5>Services</h5>
-            <ul>
-                <li><a href="./src/pages/search/search.html">Find Ambulance</a></li>
-                <li><a href="./src/pages/booking/booking.html">Book Now</a></li>
-                <li><a href="./src/pages/tracking/tracking.html">Track Booking</a></li>
-                <li><a href="#">Hospital Directory</a></li>
-                <li><a href="#">Emergency Contacts</a></li>
-            </ul>
-        </div>
-        <div class="footer-col">
-            <h5>Providers</h5>
-            <ul>
-                <li><a href="#">Join MediLink</a></li>
-                <li><a href="./src/pages/dashboard/dashboard.html">Dashboard</a></li>
-                <li><a href="#">Fleet Management</a></li>
-                <li><a href="#">Verification Process</a></li>
-                <li><a href="#">Pricing Info</a></li>
-            </ul>
-        </div>
-        <div class="footer-col">
-            <h5>Company</h5>
-            <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Our Mission</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Terms of Use</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="footer-bottom">
-        <span>© 2026 MediLink Uganda. All rights reserved.</span>
-        <span>🇺🇬 Made for Uganda · Emergency: <strong>999</strong></span>
-    </div>
-</footer>
+    </section>
 
-<script src="index.js"></script>
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="brand">
+                    <div class="brand-icon">🚑</div>
+                    Medi<span>Link</span>
+                </a>
+                <p>Connecting Uganda to emergency medical transportation through technology. Saving lives, one dispatch
+                    at a time.</p>
+                <div class="btn-row">
+                    <a href="booking.html" class="btn btn-red" style="font-size:13px;padding:8px 18px;">Get Help Now</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h5>Services</h5>
+                <ul>
+                    <li><a href="./src/pages/search/search.html">Find Ambulance</a></li>
+                    <li><a href="./src/pages/booking/booking.html">Book Now</a></li>
+                    <li><a href="./src/pages/tracking/tracking.html">Track Booking</a></li>
+                    <li><a href="#">Hospital Directory</a></li>
+                    <li><a href="#">Emergency Contacts</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5>Providers</h5>
+                <ul>
+                    <li><a href="#">Join MediLink</a></li>
+                    <li><a href="./src/pages/dashboard/dashboard.html">Dashboard</a></li>
+                    <li><a href="#">Fleet Management</a></li>
+                    <li><a href="#">Verification Process</a></li>
+                    <li><a href="#">Pricing Info</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5>Company</h5>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Mission</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 MediLink Uganda. All rights reserved.</span>
+            <span>🇺🇬 Made for Uganda · Emergency: <strong>999</strong></span>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
 
 </body>
+
 </html>
