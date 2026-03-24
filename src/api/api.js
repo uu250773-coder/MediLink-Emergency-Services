@@ -1,4 +1,5 @@
-const API_BASE = 'http://127.0.0.1:8000/api/v1';
+// const API_BASE = 'http://127.0.0.1:8000/api/v1';
+const API_BASE = 'https://medilink-emergency-services-backend.onrender.com/api/v1';
 
 //Auth helpers for the MediLink API
 
@@ -201,7 +202,7 @@ const AuthAPI = {
 const HospitalsAPI = {
     async list(filters = {}) {
         const q = new URLSearchParams(filters).toString();
-        return apiCall('GET', `/hospitals/${q ? '?' + q : ''}`);
+        return apiCall('GET', `http://localhost:8000/api/v1/hospitals/${q ? '?' + q : ''}`);
     },
     async detail(id) {
         return apiCall('GET', `/hospitals/${id}/`);
